@@ -6,23 +6,60 @@ p {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 21px;
 }
 img {
     max-width: 100%;
+}
+
+figure div {
+    /* height: 0; */
 }
 
 figure {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 32px;
+    margin: 0;
+    margin-right: 2rem;
 }
 
 .photo2, .photo4, .photo6 {
     margin-top: 48px;
 }
 
-img ~ p:nth-of-type(2) {
+figure > div > p:nth-of-type(1) {
     text-orientation: sideways;
     writing-mode: tb;
+    text-transform: uppercase;
+}
+
+.photo1 > p:nth-of-type(1) {
+    transform: translate(140px, 100%);
+}
+.photo2 > p:nth-of-type(1){
+    transform: translate(140px, 100%);
+}
+.photo3 > p:nth-of-type(1) {
+    transform: translate(140px, 100%);
+}
+.photo4 > p:nth-of-type(1) {
+    transform: translate(140px, 100%);
+}
+
+.photo5 > p:nth-of-type(1) {
+    transform: translate(140px, 100%);
+}
+.photo6 > p:nth-of-type(1) {
+    transform: translate(139px, 100%);
+}
+
+@media (min-width: 1440px) {
+    section {
+        position: relative;
+    }
+    section > header {
+        position: absolute;
+        left: 100%;
+    }
+
 }
