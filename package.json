@@ -1,0 +1,25 @@
+{
+  "name": "my-team-page",
+  "version": "1.0.0",
+  "description": "![screenshot](screenshot.png)",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass scss -o scss",
+    "scss:watch": "npm run scss && node-sass scss -w -o scss",
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tiaraha-funny/my-team-page.git"
+  },
+  "author": "Peta Jeannie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tiaraha-funny/my-team-page/issues"
+  },
+  "homepage": "https://github.com/Tiaraha-funny/my-team-page#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

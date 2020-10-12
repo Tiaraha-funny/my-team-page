@@ -1,0 +1,28 @@
+body {
+    font-family: Poppins;
+}
+
+p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+}
+img {
+    max-width: 100%;
+}
+
+figure {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 32px;
+}
+
+.photo2, .photo4, .photo6 {
+    margin-top: 48px;
+}
+
+img ~ p:nth-of-type(2) {
+    text-orientation: sideways;
+    writing-mode: tb;
+}
