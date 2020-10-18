@@ -4,8 +4,8 @@
   "description": "![screenshot](screenshot.png)",
   "main": "index.js",
   "scripts": {
-    "scss": "node-sass scss -o scss",
-    "scss:watch": "npm run scss && node-sass scss -w -o scss",
+    "css": "node-sass scss -o webroot/css",
+    "css:watch": "npm run css && node-sass scss -w -o webroot/css",
     "start": "parcel index.html"
   },
   "repository": {
@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/Tiaraha-funny/my-team-page#readme",
   "dependencies": {
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
-  }
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  },
+  "devDependencies": {}
 }

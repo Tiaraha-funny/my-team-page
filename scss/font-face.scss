@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "PT Serif";
+  src: url("./converted-fonts/PTSerif-Bold.woff2") format("woff2"),
+    url("/webroot/converted-fonts/PTSerif-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Serif";
+  src: url("./converted-fonts/PTSerif-Regular.woff2") format("woff2"),
+    url("./converted-fonts/PTSerif-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./converted-fonts/Poppins-Bold.woff2") format("woff2"),
+    url("./converted-fonts/Poppins-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
