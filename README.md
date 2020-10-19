@@ -1,6 +1,8 @@
 # Responsive Challenge 1
 
-![screenshot](screenshot.png)
+![screenshot](team-page.png)
+
+[Link of this project](https://affectionate-turing-f5c174.netlify.app/)
 
 Challenge: Create my team page following the design. The page should be responsive. Don’t look at the existing solution. Fulfill user stories below
 
